@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gimnasio Energía Total</title>
+    <link rel="stylesheet" href="styles-gimnasio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Gimnasio Energía Total</h1>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#clases">Clases</a></li>
+                    <li><a href="#membresias">Membresías</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="container">
+            <h2>Transforma tu cuerpo, transforma tu vida.</h2>
+            <p>Únete a nuestro gimnasio y alcanza tus metas fitness con nosotros.</p>
+            <a href="#membresias" class="btn">Únete Ahora</a>
+        </div>
+    </section>
+
+    <section id="clases" class="clases">
+        <div class="container">
+            <h2>Nuestras Clases</h2>
+            <div class="clases-grid">
+                <div class="clase">
+                    <img src="yoga.avif" alt="Yoga">
+                    <h3>Yoga</h3>
+                    <p>Mejora tu flexibilidad y relájate con nuestras clases de yoga.</p>
+                </div>
+                <div class="clase">
+                    <img src="crossfit.webp" alt="CrossFit">
+                    <h3>CrossFit</h3>
+                    <p>Entrenamiento intensivo para mejorar tu fuerza y resistencia.</p>
+                </div>
+                <div class="clase">
+                    <img src="zumba.jpeg" alt="Zumba">
+                    <h3>Zumba</h3>
+                    <p>Diviértete y quema calorías con nuestras clases de Zumba.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="membresias" class="membresias">
+        <div class="container">
+            <h2>Membresías</h2>
+            <div class="membresias-grid">
+                <div class="plan">
+                    <h3>Plan Básico</h3>
+                    <p>$30/mes</p>
+                    <ul>
+                        <li>Acceso a todas las clases</li>
+                        <li>Sin compromiso</li>
+                    </ul>
+                    <button class="btn">Seleccionar</button>
+                </div>
+                <div class="plan">
+                    <h3>Plan Premium</h3>
+                    <p>$50/mes</p>
+                    <ul>
+                        <li>Acceso ilimitado</li>
+                        <li>Entrenador personal</li>
+                        <li>Descuentos en suplementos</li>
+                    </ul>
+                    <button class="btn">Seleccionar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contacto">
+        <div class="container">
+            <h2>Contacto</h2>
+            <p>¿Tienes alguna pregunta? ¡Contáctanos!</p>
+            <form>
+                <input type="text" placeholder="Nombre" required>
+                <input type="email" placeholder="Correo electrónico" required>
+                <textarea placeholder="Mensaje" required></textarea>
+                <button type="submit" class="btn">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Gimnasio Energía Total. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
